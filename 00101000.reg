@@ -1,8 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\Directory\Background\shell\wt]
-@="Open Windows Terminal here"
-"Icon"="C:/Program Files/WindowsApps\Microsoft.WindowsTerminal_0.9.433.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe,0"
-
-[HKEY_CLASSES_ROOT\Directory\Background\shell\wt\command]
-@="C:\Users\Lily_Sun\AppData\Local\Microsoft\WindowsApps\wt.exe -d ."
