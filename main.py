@@ -44,7 +44,9 @@ with open('00101000.reg', 'w') as f:
 	print('成功生成')
 
 print('正在导入到你的注册表')
-time.sleep(3)
 os.system('regedit /s 00101000.reg')
 print('导入成功')
+print('清除垃圾中')
+os.system('del 00101000.reg')
+print('清除完毕')
 os.system('pause')
