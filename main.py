@@ -44,7 +44,7 @@ def render_reg_for_selected_dir(text):
 	"Icon"="{icon_path},0"
 
 	[HKEY_CLASSES_ROOT\Directory\shell\wt\command]
-	@="{terminal_path} -d %V"
+	@='{terminal_path} -d "%V"'
 
 	'''
 	return reg
